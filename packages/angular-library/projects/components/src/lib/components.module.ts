@@ -1,16 +1,10 @@
 import { NgModule } from '@angular/core';
-import { ComponentsComponent } from './components.component';
 
-
+import { DIRECTIVES } from './stencil-generated';
 
 @NgModule({
-  declarations: [
-    ComponentsComponent
-  ],
-  imports: [
-  ],
-  exports: [
-    ComponentsComponent
-  ]
+  declarations: [...DIRECTIVES],
+  imports: [],
+  exports: [...DIRECTIVES],
 })
-export class ComponentsModule { }
+export class YouComponentsModule {}
