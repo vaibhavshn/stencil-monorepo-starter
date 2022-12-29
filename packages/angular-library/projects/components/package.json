@@ -1,9 +1,10 @@
 {
-  "name": "components",
+  "name": "@you/angular-ui-kit",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^15.0.0",
-    "@angular/core": "^15.0.0"
+    "@angular/core": "^15.0.0",
+    "@you/ui-kit": ">=0.0.1"
   },
   "dependencies": {
     "tslib": "^2.3.0"

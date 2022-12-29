@@ -13,7 +13,7 @@
     "access": "public"
   },
   "peerDependencies": {
-    "@you/ui-kit": "^0.0.1"
+    "@you/ui-kit": ">=0.0.1"
   },
   "devDependencies": {
     "@types/node": "^15.12.2",
